@@ -1,0 +1,75 @@
+.about-me {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  color: #f2f2f2;
+  background: rgb(95,19,103);
+  background: linear-gradient(0deg, rgba(95,19,103,1) 0%, rgba(4,4,4,1) 80%);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  }
+  
+  .animation {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @keyframes showAnimation {
+    from {
+      transform: translate(0, 100px);
+      opacity: 0;
+    }
+    to {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+  }
+  
+  .animation > div {
+    max-width: 70%;
+  }
+
+  .animation > div > img{
+    width: 150px;
+    height: 150px;
+    
+  }
+  
+  .animation > div > h2,
+  .animation > div > p {
+    line-height: 35px;
+  }
+  
+  .animation > div > h2 {
+    font-size: 40px;
+    margin-bottom: 35px;
+  }
+  
+  .animation > div > p {
+    font-size: 20px;
+  }
+
+
+  
+  @media screen and (max-width: 800px) {
+    .animation {
+      width: 85%;
+    }
+  
+    .animation > div {
+      max-width: 100%;
+    }
+  
+    .animation > div > h2 {
+      font-size: 30px;
+    }
+  
+    @media screen and (max-width: 500px) {
+      .about-me-footer {
+        display: none;
+      }
+    }
+  }
+  

@@ -136,17 +136,22 @@
   }
   
   
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1200px) {
     .proyectos-container > span > h2 {
-      font-size: 30px;
+      font-size: 24px;
+    }
+
+    .proyectos-container > span > p{
+      font-size: 18px;
     }
   
     .proyectos-container > section {
       max-width: 90%;
       margin-top: 35px;
     }
-  
-    @media screen and (max-width: 500px) {
+  }
+
+      @media screen and (max-width: 600px) {
       .proyectos-container > section {
         max-width: 85%;
       }
@@ -155,5 +160,4 @@
         margin-bottom: 25px;
       }
     }
-  }
   

@@ -53,7 +53,7 @@
 
 
   
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1200px) {
     .about-me-contenedor {
       width: 85%;
     }
@@ -65,11 +65,36 @@
     .about-me-contenedor > div > h2 {
       font-size: 30px;
     }
-  
-    @media screen and (max-width: 500px) {
-      .about-me-footer {
-        display: none;
-      }
+
+    .about-me-contenedor > div > p{
+      font-size: 18px;
     }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .about-me-footer {
+      display: none;
+    }
+
+    .about-me-contenedor{
+      text-align: center;
+    }
+
+    .about-me-contenedor > div > h2 {
+      font-size: 24px;
+    }
+
+    .about-me-contenedor > div > p{
+      font-size: 16px;
+    }
+
+    .about-me-contenedor > div > img{
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      margin-top: 30px;
+    }
+
   }
   

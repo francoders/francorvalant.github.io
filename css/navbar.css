@@ -7,7 +7,7 @@
     --border-radius: 0.5em;
   }
   
-  .navbarr {
+  .navbar-icon {
     position: fixed;
     bottom: 1em;
     right: 1em;
@@ -17,7 +17,7 @@
     transform-origin: bottom right;
   }
   
-  .navbarr > span {
+  .navbar-icon > span {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -31,13 +31,13 @@
     overflow: hidden;
   }
   
-  .navbarr > span > a {
+  .navbar-icon > span > a {
     text-decoration: none;
     padding: 0.5em 2em;
     color: var(--white-color);
   }
   
-  .navbarr > span > a:hover {
+  .navbar-icon > span > a:hover {
     background-color: var(--grey-color-hover);
   }
   
@@ -62,7 +62,7 @@
     transform: rotate(135deg);
   }
   
-  .navbarr > .menu-visible {
+  .navbar-icon > .menu-visible {
     visibility: visible;
     transform: scaleY(1);
     pointer-events: all;

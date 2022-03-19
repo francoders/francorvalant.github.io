@@ -11,3 +11,11 @@
 - JS
 - PHP
 
+
+----------------------------------------------------
+
+### Requerimientos
+
+React-Native:
+3 Apps
+- pokemon-react-native-app

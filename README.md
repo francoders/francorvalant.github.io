@@ -16,6 +16,14 @@
 
 ### Requerimientos
 
-React-Native:
-3 Apps
+#### React-Native: Aplicaciones pendientes
+
 - pokemon-react-native-app
+
+` react-navigation `
+` API REST`
+
+- harry-potter-react-native-app
+
+` react-navigation `
+` API REST`
